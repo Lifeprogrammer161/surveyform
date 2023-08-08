@@ -1,0 +1,144 @@
+body {
+  background-color: #5a6ac2;
+  color: black;
+}
+
+header {
+  font-family: Roboto;
+  font-size: 26px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  animation: both;
+}
+
+#survey-form {
+  background-color: #ffffff;
+  font-family: Quicksand;
+  max-width: 70%;
+  margin: auto;
+  padding: 0;
+  border-radius: 15px;
+}
+
+#description {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 17px;
+  font-weight: bold;
+}
+
+.fieldset {
+  border-width: 0;
+  padding-top: 1%;
+}
+
+.sub-group {
+  position: relative;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1%;
+  font-weight: bold;
+}
+
+/* .container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+.grid-view {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+label.left {
+  width: 30%;
+  padding-right: 4%;
+  text-align: right;
+}
+
+.right {
+  width: 365px;
+}
+
+.input-field {
+  height: 20px;
+  width: 370px;
+  padding: 5px;
+  border: 1px solid #9d2e2e;
+  border-radius: 8px;
+}
+
+#dropdown {
+  font-family: Quicksand;
+  height: 30px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  align-items: end;
+}
+
+.checkbox {
+  position: relative;
+  padding: 3px;
+  right: 3px;
+  bottom: 15px;
+}
+
+.radio {
+  position: relative;
+  padding: 3px;
+  bottom: 15px;
+}
+
+h2 {
+  position: relative;
+  bottom: 8px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.commentbox {
+  text-align: center;
+}
+
+textarea {
+  width: 65%;
+  border-radius: 4px;
+}
+
+#submit {
+  background: #ffe4e1;
+  font-family: Roboto;
+  border-radius: 4px;
+  font-size: 23px;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 580px) {
+  body {
+    font-size: 9px;
+  }
+}
